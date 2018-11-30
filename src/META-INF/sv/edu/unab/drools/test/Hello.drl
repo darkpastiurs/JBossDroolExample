@@ -1,0 +1,12 @@
+import sv.edu.unab.drools.message.Message
+import java.util.List
+
+global List<Message> messages
+
+rule "Hello World"
+dialect "mvel"
+when
+  message:Message (type.equals("Hello"))
+then
+  message.printMessage();
+end

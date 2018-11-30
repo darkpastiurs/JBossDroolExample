@@ -1,0 +1,5 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="TestKB" packages="sv.edu.unab.drools.test">
+        <ksession name="TestKS" />
+    </kbase>
+</kmodule>

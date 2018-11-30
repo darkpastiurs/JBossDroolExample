@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="JBossDroolExample:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JBossDroolExample_jar</output-path>
+    <root id="root">
+      <element id="archive" name="JBossDroolExample.jar">
+        <element id="module-output" name="JBossDroolExample" />
+      </element>
+      <element id="library" level="project" name="Drools-6.2.0" />
+    </root>
+  </artifact>
+</component>
